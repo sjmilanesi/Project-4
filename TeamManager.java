@@ -10,8 +10,8 @@ public class TeamManager {
 
 	public void getTeams() {
 
-		Olympian[] femaleOlympians = new Olympian[15];
-		Olympian[] maleOlympians = new Olympian[15];
+		Olympian[] femaleOlympians = new Olympian[16];
+		Olympian[] maleOlympians = new Olympian[16];
 
 		int femaleCount = 0;
 		int maleCount = 0;
