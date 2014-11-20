@@ -26,6 +26,23 @@ public class Main {
         OlympianManager olymian = new OlympianManager();
         olympian.printOlympians();
     }
+    
+    public static void startCompetition(){
+        System.out.println("Enter an Event");
+        int event = Integer.parseInt(stringArray[0]);
+        System.out.println("Enter the first team");
+        int team1 = Integer.parseInt(stringArray[1]);
+        System.out.println("Enter the second team");
+        int team2 = Integer.parseInt(stringArray[2]);
+    }
+    
+    Public static void endCompetition(){
+        endCompetition(Competition competition, Team winningTeam);
+        System.out.println("Enter the competition");
+        int competition = Integer.parseInt(stringArray[0]);
+        System.out.println("Enter the winning team");
+        int winningTeam = Integer.parseInt(stringArray[1]);
+    }
        
     
     public static void main(String[] args)
