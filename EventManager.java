@@ -13,14 +13,6 @@ public class EventManager {
         this.event[4] = new StickGameEvent();
         this.event[5] = new WashoosEvent();
 
-
-        this.event[0] = canJamEvent;
-        this.event[1] = cornHoleEvent;
-        this.event[2] = horseShoesEvent;
-        this.event[3] = ladderBallEvent;
-        this.event[4] = stickGameEvent;
-        this.event[5] = washoosEvent;
-
     }
 
     public Event[] getEvent(){
