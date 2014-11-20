@@ -1,7 +1,7 @@
 package com.company;
-import java.util.Scanner;
+import java.util.Arrays;
 
-//Project 2 by Steven Milanesi
+//Project 4 by Steven Milanesi
 
 public class Main {
 
@@ -18,20 +18,17 @@ public class Main {
 
 
 
-    public static void displayEvents() {
-        for (int i = 0; i < EventManager.length; i++) {
-            System.out.println(EventManager[i]);
-        }
+    public static void EventManager() {
+        EventManager event = new EventManager();
+        event.printEvent();
     }
 
-    public static void displayOlympian() {
-        for (int i = 0; i < OlympianManager.length; i++) {
-            System.out.println(OlympianManager[i][0] + " ");
-            for (int j = 1; j < OlympianManager[i].length; j++) {
-                System.out.println(OlympianManager[i][j] + " ");
-            }
-        }
+    public static void OlympianManager() {
+        OlympianManager olymian = new OlympianManager();
+        olympian.printOlympians();
     }
+       
+    
 
 
     public static void main(String[] args)
@@ -46,7 +43,11 @@ public class Main {
                 }
                 else if(args[i] == "o" || args[i] == "olympians")
                 {
-                    displayOlympians(); 
+                    displayOlympians();
+                }
+                else if(args[i] == "t" || args[i] =="teams")
+                {
+                    displayTeams();
                 }
                 else if(args[i] == "h" || args[i] =="help")
                 {
