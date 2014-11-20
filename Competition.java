@@ -1,4 +1,3 @@
-
 public class Competition implements ICompetition {
     private Event event;
     private Team team1;
