@@ -16,8 +16,7 @@ public class Main {
                 };
     }
 
-
-
+    
     public static void EventManager() {
         EventManager event = new EventManager();
         event.printEvent();
@@ -29,8 +28,6 @@ public class Main {
     }
        
     
-
-
     public static void main(String[] args)
     {
         if(args.length > 0)
